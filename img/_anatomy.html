@@ -1,0 +1,23 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+body{width:1200px;height:720px;background:linear-gradient(135deg,#0b1020,#141b34);color:#fff;padding:56px 60px}
+h2{font-size:44px;font-weight:800;letter-spacing:-.5px;margin-bottom:8px}
+.sub{color:#aab6e6;font-size:23px;margin-bottom:44px}
+.core{display:flex;align-items:center;justify-content:center;gap:0;position:relative;height:470px}
+.center{width:250px;height:250px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#6ea8ff,#4361ee);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 0 60px rgba(99,132,255,.5);z-index:2}
+.center .ico{font-size:64px}.center .t{font-size:30px;font-weight:800;margin-top:6px}.center .s{font-size:19px;color:#dce3ff}
+.node{position:absolute;width:270px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);border-radius:18px;padding:22px 24px}
+.node .ico{font-size:38px}.node h3{font-size:26px;font-weight:700;margin:8px 0 6px}.node p{font-size:19px;color:#bcc7ef;line-height:1.35}
+.n1{top:0;left:20px}.n2{top:0;right:20px}.n3{bottom:0;left:20px}.n4{bottom:0;right:20px}
+.tag{position:absolute;top:210px;left:50%;transform:translateX(-50%);color:#8fa2e0;font-size:20px;letter-spacing:2px}
+</style></head><body>
+<h2>Anatomy of an AI Agent</h2>
+<div class="sub">Every agent — no-code or coded — is built from these four parts.</div>
+<div class="core">
+<div class="node n1"><div class="ico">📜</div><h3>Instructions</h3><p>The system prompt: role, rules, tone and guardrails.</p></div>
+<div class="node n2"><div class="ico">🛠️</div><h3>Tools</h3><p>Actions it can take: search, APIs, database, messaging.</p></div>
+<div class="node n3"><div class="ico">💾</div><h3>Memory</h3><p>Short-term chat context plus long-term knowledge.</p></div>
+<div class="node n4"><div class="ico">🎯</div><h3>Goal Loop</h3><p>Reason → act → observe → repeat until the goal is met.</p></div>
+<div class="center"><div class="ico">🧠</div><div class="t">The Brain</div><div class="s">LLM (GPT-4o / Claude)</div></div>
+</div>
+</body></html>
